@@ -18,4 +18,29 @@ body {
 main {
   background: url("./assets/Background.jpg") no-repeat center/cover;
   min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+section {
+  background: #6d67d0;
+  backdrop-filter: blur(1rem);
+  border-radius: 1rem;
+}
+
+.temperature-now {
+  background: url("./assets/bg-temp-now.jpeg") no-repeat center/cover;
+
+  width: 48rem;
+  height: 48rem;
+  position: relative;
+}
+
+.temperature-now::before {
+  content: "";
+  width: 17.6rem;
+  height: 17.6rem;
+  background: url('./assets/clouds.svg') no-repeat;
+  position: absolute;
+  top: -5.6rem;
+  left: -5.6rem;
 }
