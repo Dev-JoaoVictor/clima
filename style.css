@@ -33,14 +33,31 @@ section {
   width: 48rem;
   height: 48rem;
   position: relative;
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
 }
 
 .temperature-now::before {
   content: "";
   width: 17.6rem;
   height: 17.6rem;
-  background: url('./assets/clouds.svg') no-repeat;
+  background: url("./assets/clouds.svg") no-repeat;
   position: absolute;
   top: -5.6rem;
   left: -5.6rem;
+}
+
+.location {
+  display: flex;
+  justify-self: end;
+  align-items: center;
+
+  gap: 0.4rem;
+  padding: 3.2rem 3.2rem 0;
+}
+
+.location strong {
+  color: #c2bff4;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
 }
