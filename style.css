@@ -61,3 +61,40 @@ section {
   font-size: 1.4rem;
   line-height: 1.7rem;
 }
+
+.temp {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  margin: 6rem;
+  font-weight: 700;
+  gap: 0.4rem;
+}
+
+.temp .number {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.4rem;
+
+  font-size: 8.8rem;
+  line-height: 10.6rem;
+  color: #ffffff;
+}
+
+.temp .number .maxmin {
+  font-size: 2rem;
+  line-height: 2.4rem;
+
+}
+
+.temp .number .maxmin span {
+  color: #C2BFF4;
+}
+
+.celsius {
+  font-size: 2.4rem;
+  color: #DAD8F7;
+  margin-top: 1.5rem;
+}
