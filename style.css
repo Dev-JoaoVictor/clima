@@ -98,3 +98,41 @@ section {
   color: #DAD8F7;
   margin-top: 1.5rem;
 }
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  background: rgba(102, 96, 200, 0.6);
+  padding: 1.2rem 1.6rem;
+  margin-bottom: 1.2rem;
+  gap: 1.2rem;
+  border-radius: .6rem;
+}
+
+.stats img {
+  opacity: 0.4;
+}
+
+.stats .info {
+  color: #E7E6FB;
+}
+.info p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.info h5 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+.info span {
+  font-size: 1.4rem;
+}
