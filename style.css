@@ -179,16 +179,3 @@ h2.title {
   display: flex;
   justify-content: center;
 }
-
-.info-list {
-  display: flex;
-  list-style: none;
-  gap: 1.6rem;
-  margin: 0 1.6rem 1.6rem 1.6rem;
-  justify-content: center;
-}
-
-.info-list-item {
-  justify-content: center;
-  align-items: center;
-}
