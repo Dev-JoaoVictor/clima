@@ -1,4 +1,5 @@
 @import url('./style/temperature-now.css');
+@import url('./style/air-quality.css');
 
 * {
   margin: 0;

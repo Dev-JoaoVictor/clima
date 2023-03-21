@@ -1,0 +1,61 @@
+/* ari-quality header */
+.air-quality-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.8rem;
+  margin-top: 3.4rem;
+}
+.header-title {
+  color: #dad8f7;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+}
+
+/* ar-quality condition*/
+
+.air-quality-stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3.2rem;
+  gap: 0.4rem;
+}
+
+.stats-condition {
+  color: #87ebcd;
+}
+
+.stats-number {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #e7e6fb;
+}
+
+/* ar-quality statistic*/
+
+.air-quality-statistic {
+  display: flex;
+  margin-top: 3.2rem;
+  align-items: center;
+  padding: 0 1.6rem 1.6rem;
+}
+
+.statistic {
+  flex: 1;
+  text-align: center;
+}
+
+.statistic-number {
+  color: #87ebcd;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.statistic-stats {
+  color: #e7e6fb;
+  font-size: 1.2rem;
+}
