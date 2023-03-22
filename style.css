@@ -33,7 +33,18 @@ section {
   border-radius: 1rem;
 }
 
+@media (min-width: 1200px) {
+  main {
+    grid-template-columns:  48rem 27.7rem 27.7rem;
+    grid-template-rows: 24rem 21.2rem;
 
+  }
 
-/*Air Quality*/
+  .temperature-now {
+    grid-row: 1/3;
+  }
+  .week-weather {
+    grid-column: 2/4;
+  }
+}
 
