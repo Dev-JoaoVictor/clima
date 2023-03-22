@@ -31,7 +31,6 @@
 .location-city {
   color: #c2bff4;
   font-size: 1.4rem;
-  line-height: 1.7rem;
 }
 
 .temp {
@@ -51,13 +50,11 @@
   
   gap: 0.4rem;
   font-size: 8.8rem;
-  line-height: 10.6rem;
   color: #ffffff;
 }
 
 .temp-maxmin {
   font-size: 2rem;
-  line-height: 2.4rem;
 }
 
 .temp-maxmin-span {
@@ -72,8 +69,6 @@
 
 .statistics {
   display: flex;
-  justify-content: space-around;
-  
   gap: 0.8rem;
   padding: 1.2rem;
 }
@@ -97,21 +92,17 @@
   color: #e7e6fb;
 }
 .stats-type {
-  font-weight: 400;
   font-size: 1.2rem;
-  line-height: 1.4rem;
 }
 
 .stats-type-info {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 0.4rem;
 
-  font-weight: 700;
   font-size: 1.8rem;
-  line-height: 2.2rem;
 }
 
 .stats-type-span {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
