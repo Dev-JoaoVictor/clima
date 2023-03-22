@@ -1,0 +1,8 @@
+.sunset-time-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.8rem;
+  margin-top: 3.4rem;
+}

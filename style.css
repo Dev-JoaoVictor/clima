@@ -1,5 +1,6 @@
 @import url('./style/temperature-now.css');
 @import url('./style/air-quality.css');
+@import url('./style/sunset-time.css');
 
 * {
   margin: 0;
